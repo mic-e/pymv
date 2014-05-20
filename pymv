@@ -44,7 +44,7 @@ def ttywidth(fd=1):
         return inf
 
     request = struct.pack('HHHH', 0, 0, 0, 0)
-    reply = fcntl.ioctl(fd, termios.TIOCGWINSZ)
+    reply = fcntl.ioctl(fd, termios.TIOCGWINSZ, request)
     h, w, hp, wp = struct.unpack('HHHH', reply)
 
     return w
