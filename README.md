@@ -67,7 +67,7 @@ To directly enter the matcher regular expression, use `--advanced`:
 
 To enter python lambdas for the matcher/replacer, use `--functor`.
 
-    noglob ~/git/pymv/pymv -f 'f.startswith("CD")' '"CD #" + f[2:]'
+    pymv -f 'f.startswith("CD")' '"CD #" + f[2:]'
 
 Use `-i` to ignore case, `--depth` to limit the serach depth, and `--preserve-emptied` to prevent deletion of emptied directories.
 
