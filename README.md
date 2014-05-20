@@ -72,3 +72,5 @@ To enter python lambdas for the matcher/replacer, use `--functor`.
 Use `-i` to ignore case, `--depth` to limit the serach depth, and `--preserve-emptied` to prevent deletion of emptied directories.
 
 Use `--help`, or the source code, for details.
+
+Your feedback is always welcome on irc.freenode.net/#sfttech, as are your pull requests.
